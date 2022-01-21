@@ -1,0 +1,10 @@
+data/test/00000_Mask_Mouth_Chin.jpg
+data/test/00008_Mask_Mouth_Chin.jpg
+data/test/00017_Mask_Chin.jpg
+data/test/00026_Mask_Mouth_Chin.jpg
+data/test/00027_Mask_Chin.jpg
+data/test/00033_Mask_Mouth_Chin.jpg
+data/test/00036_Mask_Nose_Mouth.jpg
+data/test/00039_Mask_Mouth_Chin.jpg
+data/test/00041_Mask_Mouth_Chin.jpg
+data/test/00047_Mask_Mouth_Chin.jpg
