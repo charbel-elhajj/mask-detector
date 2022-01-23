@@ -1,0 +1,8 @@
+package
+setup.py
+Yolo_v4.egg-info/PKG-INFO
+Yolo_v4.egg-info/SOURCES.txt
+Yolo_v4.egg-info/dependency_links.txt
+Yolo_v4.egg-info/entry_points.txt
+Yolo_v4.egg-info/requires.txt
+Yolo_v4.egg-info/top_level.txt
