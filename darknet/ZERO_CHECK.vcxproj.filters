@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\8223b64b2b665beb4810429d330f32d0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{82BC9F46-1EC4-32C1-9085-69DE7E51240A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

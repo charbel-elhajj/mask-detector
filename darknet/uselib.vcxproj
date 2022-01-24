@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF17B974-38C6-3B74-A5D1-5CA3829E66B7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>uselib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">uselib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">uselib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">uselib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">uselib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\darknetd.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/Debug/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/Debug/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\darknet.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/Release/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/Release/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\darknet.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/MinSizeRel/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/MinSizeRel/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\stb\include;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\darknet.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/RelWithDebInfo/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/RelWithDebInfo/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet -BC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet --check-stamp-file C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\DarknetConfig.cmake.in;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindPThreads4W.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindStb.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet -BC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet --check-stamp-file C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\DarknetConfig.cmake.in;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindPThreads4W.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindStb.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet -BC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet --check-stamp-file C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\DarknetConfig.cmake.in;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindPThreads4W.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindStb.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet -BC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet --check-stamp-file C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\DarknetConfig.cmake.in;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindPThreads4W.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\cmake\Modules\FindStb.cmake;C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\src\yolo_console_dll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\ZERO_CHECK.vcxproj">
+      <Project>{7BB444B1-2A1D-353A-A7A7-B70321C5D4C2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Charbel\Desktop\CJ_YOLO_v4\Yolo-v4\darknet\dark.vcxproj">
+      <Project>{EDE257B2-440A-3C7D-A1B0-EDAB02297D57}</Project>
+      <Name>dark</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

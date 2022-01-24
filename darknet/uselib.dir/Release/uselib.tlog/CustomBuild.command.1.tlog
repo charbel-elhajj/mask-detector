@@ -1,0 +1,10 @@
+^C:\USERS\CHARBEL\DESKTOP\CJ_YOLO_V4\YOLO-V4\DARKNET\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet -BC:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet --check-stamp-file C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

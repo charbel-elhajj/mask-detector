@@ -1,0 +1,6 @@
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/dark.dir
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/uselib.dir
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/darknet.dir
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/INSTALL.dir
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/ALL_BUILD.dir
+C:/Users/Charbel/Desktop/CJ_YOLO_v4/Yolo-v4/darknet/CMakeFiles/ZERO_CHECK.dir
